@@ -1,8 +1,8 @@
-
 import ContactsList from "./ContactsList";
 import inputs from "../constants/inputs";
 import { v4 } from "uuid";
 import styles from "./Contacts.module.css";
+import { useState } from "react";
 
 function Contacts() {
   const [contacts, setContacts] = useState([]);
