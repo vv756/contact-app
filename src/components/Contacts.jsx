@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 
 import ContactsList from "./ContactsList";
 import inputs from "../constants/inputs";

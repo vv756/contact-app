@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Contacts from "./Components/Contacts.jsx";
 import Header from "./Components/Header.jsx";
+import Contacts from "./Components/Contacts.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
